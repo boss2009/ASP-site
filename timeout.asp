@@ -3,7 +3,7 @@
 * Title: Session Timeout
 * Main SP: 
 * Description: This page is shown when user session times out.
-* Author: T.H
+* Author: D. T. Chan
 --------------------------------------------------------------------------->
 <%@language="JAVASCRIPT"%>
 <!--#include file="inc/ASPUtility.inc" -->

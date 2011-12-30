@@ -4,7 +4,7 @@
 * Main SP: cp_logmster
 * Description: Same as asplogin.asp without graphics.  Used to renew
 * session.  When login is successful, user is redirected to last visited page.
-* Author: T.H
+* Author: D. T.Chan
 --------------------------------------------------------------------------->
 <%@language="JAVASCRIPT"%>
 <!--#include file="inc/ASPUtility.inc" -->

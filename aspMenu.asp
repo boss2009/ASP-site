@@ -3,7 +3,7 @@
 * Title: @WIS Master Menu
 * Main SP: cp_Idv_Staff
 * Description: Main menu page.  Links to all database modules and adminstration.
-* Author: T.H
+* Author: D. T. Chan
 --------------------------------------------------------------------------->
 <%@language="JAVASCRIPT"%>
 <!--#include file="inc/ASPUtility.inc" -->

@@ -3,7 +3,7 @@
 * Title: 
 * Main SP: 
 * Description: Ends the session.
-* Author: T.H
+* Author: D. T. Chan
 --------------------------------------------------------------------------->
 <%
 Session.Abandon
