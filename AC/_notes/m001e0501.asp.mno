@@ -1,0 +1,10 @@
+<info>
+	<infoitem key="UD_rsSchool" value="name:insSchool_id;datatype:smallint,name:chvName;datatype:varchar,name:insSchool_type_id;datatype:smallint" />
+	<infoitem key="UD_rsDurType" value="name:insDuratn_type_id;datatype:smallint,name:chvDuratn_desc;datatype:varchar" />
+	<infoitem key="UD_rsEduHstry" value="name:intEduHst_id;datatype:int,name:intAdult_id;datatype:int,name:insSchool_id;datatype:smallint,name:chvPgm_Name;datatype:varchar,name:insProg_type_id;datatype:smallint,name:dtsStart_date;datatype:smalldatetime,name:insDurtn_Qty;datatype:smallint,name:insDuratn_type_id;datatype:smallint,name:chvAdult_num;datatype:char,name:bitIs_Active;datatype:bit,name:chvnotes;datatype:varchar" />
+	<infoitem key="UD_rsClient" value="name:intAdult_id;datatype:int,name:chvName;datatype:varchar,name:chrPEN_num;datatype:char" />
+	<infoitem key="UD_rsPgmTyp" value="name:insProg_type_id;datatype:smallint,name:chvname;datatype:varchar" />
+	<infoitem key="UD_rsInstitution" value="name:insSchool_id;datatype:smallint,name:chvName;datatype:varchar,name:insSchool_type_id;datatype:smallint" />
+	<infoitem key="UD_rsProgramType" value="name:insProg_type_id;datatype:smallint,name:chvname;datatype:varchar,name:bitIsAdd;datatype:bit" />
+	<infoitem key="UD_rsDurationType" value="name:insDuratn_type_id;datatype:smallint,name:chvDuratn_desc;datatype:varchar" />
+</info>

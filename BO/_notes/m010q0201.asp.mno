@@ -1,0 +1,3 @@
+<info>
+	<infoitem key="UD_rsInventoryRequested" value="name:insRqst_requested_id;datatype:smallint,name:insPurchase_req_id;datatype:smallint,name:insClass_bundle_id;datatype:smallint,name:bitIs_class;datatype:bit,name:insPR_request_Qty_Ordered;datatype:int,name:fltPR_request_List_Unit_Cost;datatype:float,name:fltTotal_Cost;datatype:float,name:dtsEst_delivery_date;datatype:smalldatetime,name:chvClass_Bundle_Name;datatype:varchar,name:chvDescription;datatype:varchar,name:intFor_Adult_id;datatype:int,name:chvClient;datatype:varchar" />
+</info>

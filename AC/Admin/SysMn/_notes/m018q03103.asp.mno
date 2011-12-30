@@ -1,0 +1,3 @@
+<info>
+	<infoitem key="UD_rsWorkOrder" value="name:insWork_order_id;datatype:smallint,name:chvWork_order_no;datatype:char,name:chvWork_order_Desc;datatype:varchar" />
+</info>

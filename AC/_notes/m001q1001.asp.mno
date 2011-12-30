@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<info>
+	<infoitem key="UD_rsRegStat_Hstry" value="name:intAdult_id;datatype:int,name:dtsDate_changed;datatype:smalldatetime,name:chvChange_Type;datatype:varchar,name:chvChg_To;datatype:varchar,name:chvChg_by;datatype:varchar" />
+</info>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<info>
+	<infoitem key="UD_rsProv" value="name:intprvst_id;datatype:int,name:chrprvst_abbv;datatype:char" />
+	<infoitem key="UD_rsPType" value="name:intPhone_type_id;datatype:int,name:chvName;datatype:varchar" />
+	<infoitem key="UD_rsAltAdrs" value="name:intAddress_id;datatype:int,name:chvAddress;datatype:varchar,name:chvCity;datatype:varchar,name:insProv_State_id;datatype:smallint,name:chvPostal_zip;datatype:varchar,name:intPhone_Type_1;datatype:tinyint,name:chvPhone1_Arcd;datatype:varchar,name:chvPhone1_Num;datatype:varchar,name:chvPhone1_Ext;datatype:varchar,name:intPhone_Type_2;datatype:tinyint,name:chvPhone2_Arcd;datatype:varchar,name:chvPhone2_Num;datatype:varchar,name:chvPhone2_Ext;datatype:varchar,name:chvEmail;datatype:varchar,name:chvNote;datatype:varchar,name:dtsDateFrm;datatype:smalldatetime,name:dtsDateTo;datatype:smalldatetime" />
+</info>

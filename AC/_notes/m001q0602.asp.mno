@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<info>
+	<infoitem key="UD_rsEduDoc" value="name:intReferral_id;datatype:int,name:dtsRefral_date;datatype:smalldatetime,name:insSmstr_id;datatype:smallint,name:intEnroll_id;datatype:int,name:chvsemester;datatype:varchar,name:insCourse_id;datatype:smallint,name:chvCrse_type;datatype:varchar,name:insYear;datatype:smallint,name:insNum_of_Course;datatype:smallint,name:bitIsElgb4_ASP;datatype:bit,name:chvComment;datatype:varchar" />
+	<infoitem key="UD_RequestQString1" value="intAdult_id" />
+	<infoitem key="UD_requestQStringCount" value="1" />
+</info>

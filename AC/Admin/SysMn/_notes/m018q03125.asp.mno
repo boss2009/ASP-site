@@ -1,0 +1,3 @@
+<info>
+	<infoitem key="UD_rsWorkType" value="name:intWork_type_id;datatype:int,name:chvWork_type_desc;datatype:varchar,name:bitIs_active;datatype:bit" />
+</info>

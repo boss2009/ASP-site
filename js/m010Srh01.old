@@ -1,0 +1,105 @@
+// ------------------------------------------
+// Description: singular items filter construct
+// caller : (1) m010q01.asp
+//
+// Note : this script assumes the following var
+//        are defined at the caller - 
+//        (1) stgFilter
+//        (2) chvOprd
+//        (3) chrNot
+//        (4) chvOptr
+//        (5) chvStg1
+//        (6) chvStg2
+//
+//        Filter for (i)  Region        #240
+//                   (ii) Disability    #241
+//                   (iii)Referral Type #242
+//        are coded on ASP files  
+//
+// Update Log: 
+// ===========
+//    - updated script regarding Advanced & Power Search    + Dec.12.2002
+// ------------------------------------------
+// debug
+function ACfltr_10(chvOprd,chrNot,chvOptr,chvStg1,chvStg2) {
+//   document.write("<b>Executing Search...</b>") ;
+//
+	var stgFilter = "" ;
+	switch (chvOprd) {
+// Equip. on back order
+        case "231" :if (chvOptr == '14' ) { 
+		             stgFilter += " bitIsBack_Ordered = 1 " ; 
+				   } else { 
+					 stgFilter += " bitIsBack_Ordered = 0 " ;
+                   };
+		break;
+//  First Name
+        case "232" :stgFilter += " insEq_user_type = 3 AND chvFst_Name " ;
+			switch(chvOptr) {
+				case "1" : stgFilter += "LIKE '" + chvStg1 + "%25'  ";   break;
+				case "2" : stgFilter += "LIKE '%25" + chvStg1 + "%25' "; break;
+				case "3" : stgFilter += "= '"     + chvStg1 + "'  ";     break;
+				case "4" : stgFilter += "LIKE '%25"  + chvStg1 + "' ";   break;
+			};
+		break;
+// Client Last Name
+        case "234" :stgFilter += " insEq_user_type = 3 AND chvLst_Name " ;
+			switch(chvOptr) {
+				case "1" : stgFilter += "LIKE '" + chvStg1 + "%25'  ";   break;
+				case "2" : stgFilter += "LIKE '%25" + chvStg1 + "%25' "; break;
+				case "3" : stgFilter += "= '"     + chvStg1 + "'  ";     break;
+				case "4" : stgFilter += "LIKE '%25"  + chvStg1 + "' ";   break;
+			};
+		break;
+// Buyer's corresponding School                            
+        case "235" :stgFilter += " insEq_user_type = 3 AND insSchool_id = " + chvStg1 ;
+		break;
+// Buyout status                            
+        case "236" :stgFilter += " insBuyout_Status_id = " + chvStg1 ;
+		break;
+// Funding Source                            
+        case "237" :stgFilter += " insFunding_source_id = " + chvStg1 ;
+		break;
+// Buyout Process                            
+        case "238" :stgFilter += " insBuyout_Prc_id = " + chvStg1 ;
+		break;
+// Case manager                            
+        case "239" :stgFilter += " insEq_user_type = 3 AND insCase_mngr_id = " + chvStg1 ;
+		break;
+// Processed date                           + Jan.22.2003
+        case "245" :stgFilter += " dtsUser_Ship_date BETWEEN '" + chvStg1 + "'" ;
+		           stgFilter += " AND '" + chvStg2 + "'" ; 
+		break;
+// Delivered date                           + Jan.22.2003
+        case "246" :stgFilter += " dtsDlvy_date BETWEEN '" + chvStg1 + "'" ;
+		           stgFilter += " AND '" + chvStg2 + "'" ; 
+		break;
+// Shipping Method                          + Jan.22.2003
+        case "247" :stgFilter += " insShip_Method_id = " + chvStg1 ;
+		break;
+// Delivered on schedule                    + Jan.22.2003
+        case "248" :if (chvOptr == '14' ) { 
+		             stgFilter += " bitIsDlvy_onshdl = 1 " ; 
+				   } else { 
+					 stgFilter += " bitIsDlvy_onshdl = 0 " ;
+                   };
+		break;
+// Delay Delivery Resolved                  + Jan.22.2003   
+        case "249" :if (chvOptr == '14' ) { 
+		             stgFilter += " bitIsDlvy_delay = 1 " ; 
+				   } else { 
+					 stgFilter += " bitIsDlvy_delay = 0 " ;
+                   };
+		break;
+// Equipment Requested                      + Jan.23.2003   
+        case "251" :stgFilter += " bitIs_class = 1 AND insClass_bundle_id = " + chvStg1 ;
+		           break;
+// Equipment Sold                           + Jan.23.2003   
+        case "252" :stgFilter += " intEquip_set_id = " + chvStg1 ;
+		           break;
+				   
+// end switch
+	}  
+//alert("stgFilter is - "+stgFilter);
+	return (stgFilter) ;
+}

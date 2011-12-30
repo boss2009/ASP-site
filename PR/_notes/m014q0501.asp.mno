@@ -1,0 +1,3 @@
+<info>
+	<infoitem key="UD_rsBackOrders" value="name:intBack_Ord_id;datatype:int,name:insPurchase_Req_id;datatype:smallint,name:dtsBack_Ord_rx;datatype:smalldatetime,name:insEquip_class_id;datatype:smallint,name:intQuantity;datatype:int" />
+</info>

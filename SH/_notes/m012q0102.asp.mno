@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<info>
+	<infoitem key="UD_rsAFlwup" value="name:intFlwup_id;datatype:int,name:intAdult_id;datatype:int,name:insYear;datatype:smallint,name:dtsRx_date;datatype:smalldatetime,name:chvType;datatype:varchar,name:chvEqp_MNeed;datatype:varchar,name:dtsEdCmplDate;datatype:smalldatetime,name:dtsVocLoanDate;datatype:smalldatetime,name:chvAct_req;datatype:varchar,name:chvIssue;datatype:varchar" />
+</info>

@@ -1,0 +1,4 @@
+<info>
+	<infoitem key="UD_rsEquipClass" value="name:insEquip_Class_id;datatype:smallint,name:bitIs_Abstract;datatype:bit,name:chvName;datatype:varchar,name:insSuper_Class_id;datatype:smallint" />
+	<infoitem key="UD_rsAbstractClass" value="name:insEquip_Class_id;datatype:smallint,name:bitIs_Abstract;datatype:bit,name:chvName;datatype:varchar,name:insSuper_Class_id;datatype:smallint" />
+</info>

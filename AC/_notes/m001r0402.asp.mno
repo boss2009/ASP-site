@@ -1,0 +1,4 @@
+<info>
+	<infoitem key="UD_rsRShip" value="name:insRtnship_id;datatype:smallint,name:chvname;datatype:varchar" />
+	<infoitem key="UD_rsCol" value="name:chvName;datatype:varchar,name:insObjOrder;datatype:smallint" />
+</info>

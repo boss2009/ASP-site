@@ -1,0 +1,4 @@
+<info>
+	<infoitem key="UD_rsFS" value="name:insFunding_source_id;datatype:smallint,name:chvfunding_source_name;datatype:varchar,name:bitactive;datatype:bit,name:bitis_Note_Srv_App;datatype:bit,name:bitis_Loan_App;datatype:bit,name:bitis_Buyout_App;datatype:bit,name:bitis_Offical_FS;datatype:bit" />
+	<infoitem key="UD_rsRA" value="name:insrefer_agent_id;datatype:smallint,name:chvname;datatype:varchar,name:bitis_active;datatype:bit,name:bitis_loan;datatype:bit,name:bitis_BuyOut;datatype:bit,name:chrFS_chbx;datatype:char" />
+</info>

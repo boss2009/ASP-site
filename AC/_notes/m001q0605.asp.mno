@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<info>
+	<infoitem key="UD_RequestQString1" value="intAdult_id" />
+	<infoitem key="UD_requestQStringCount" value="1" />
+	<infoitem key="UD_rsExtFS" value="name:intAdult_id;datatype:int,name:intExtFS_id;datatype:int,name:chvExtFS_type;datatype:varchar,name:chvClaim_Status;datatype:varchar,name:chvElgb4_ASP;datatype:varchar" />
+</info>

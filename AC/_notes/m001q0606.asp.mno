@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<info>
+	<infoitem key="UD_rsLOForm" value="name:intAdult_id;datatype:int,name:bitIs_FirstNations;datatype:bit,name:chvIs_FirstNations;datatype:varchar,name:dtsLOform_rx_date;datatype:smalldatetime,name:dtsLetter_rx_date;datatype:smalldatetime,name:bitIs_Elgb4_asp;datatype:bit,name:chvIs_Elgb4_asp;datatype:varchar,name:intWaiver_id;datatype:int" />
+</info>

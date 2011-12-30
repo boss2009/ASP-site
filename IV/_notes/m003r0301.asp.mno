@@ -1,0 +1,6 @@
+<info>
+	<infoitem key="UD_rsRShip" value="name:insRtnship_id;datatype:smallint,name:chvname;datatype:varchar" />
+	<infoitem key="UD_rsCol" value="name:chvName;datatype:varchar,name:insObjOrder;datatype:smallint" />
+	<infoitem key="UD_rsSchool" value="name:insSchool_id;datatype:smallint,name:chvName;datatype:varchar,name:insSchool_type_id;datatype:smallint" />
+	<infoitem key="UD_rsInstitution" value="name:insSchool_id;datatype:smallint,name:chvName;datatype:varchar,name:insSchool_type_id;datatype:smallint" />
+</info>

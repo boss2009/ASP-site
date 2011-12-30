@@ -1,0 +1,5 @@
+<info>
+	<infoitem key="UD_rsLoan" value="name:intAdult_id;datatype:int,name:intLoan_Req_id;datatype:int,name:chvLoan_name;datatype:varchar,name:dtsProcess;datatype:smalldatetime,name:dtsDate_Shipped;datatype:smalldatetime,name:dtsReturn;datatype:smalldatetime,name:intEquip_Set_id;datatype:int,name:chvInventory_Name;datatype:varchar,name:chvequip_status;datatype:varchar,name:chvDtlVendor;datatype:varchar,name:intRequisition_no;datatype:int,name:dtsRec_Date;datatype:varchar,name:fltPurchase_Cost;datatype:varchar" />
+	<infoitem key="UD_RequestQString1" value="intAdult_id" />
+	<infoitem key="UD_requestQStringCount" value="1" />
+</info>

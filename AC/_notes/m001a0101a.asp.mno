@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsRegion" value="name:insRegion_num;datatype:smallint,name:chvname;datatype:varchar,name:chvabbrev;datatype:varchar,name:intaddress_id;datatype:int" />
+	<infoitem key="UD_rsStdSts" value="name:insStdnt_status_id;datatype:smallint,name:chvName;datatype:varchar" />
+	<infoitem key="UD_rsCseMgr" value="name:insId;datatype:smallint,name:chvName;datatype:varchar" />
+	<infoitem key="UD_rsDisability" value="name:insDisability_id;datatype:smallint,name:chvname;datatype:varchar" />
+	<infoitem key="UD_rsCaseManager" value="name:insId;datatype:smallint,name:chvName;datatype:varchar" />
+	<infoitem key="UD_rsClient" value="name:intadult_id;datatype:int,name:insrefer_agent_id;datatype:smallint,name:insFunding_source_id;datatype:smallint,name:chvLst_Name;datatype:varchar,name:chvFst_Name;datatype:varchar,name:dtsRefral_date;datatype:smalldatetime,name:dtsRe_refral_date;datatype:smalldatetime,name:insDsbty1_id;datatype:smallint,name:chvDisability;datatype:varchar,name:insRegion_num;datatype:smallint,name:chvRegion;datatype:varchar,name:insStdnt_status_id;datatype:smallint,name:chvStatus;datatype:varchar,name:chrSIN_no;datatype:char,name:insCase_mngr_id;datatype:smallint,name:chvCaseManager;datatype:varchar,name:chrGender;datatype:char,name:intAge;datatype:int,name:bitIs_Prx_SETBC;datatype:bit,name:bitIs_Prx_PRCVI;datatype:bit,name:intStdnt_addr_id;datatype:int,name:intAlt_Addr_id;datatype:int,name:chvPhone_no;datatype:varchar,name:bitRef_Type;datatype:bit,name:bitRef_Agent;datatype:bit" />
+</info>

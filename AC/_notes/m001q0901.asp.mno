@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<info>
+	<infoitem key="UD_rsCorsp" value="name:intSubject_id;datatype:int,name:intRecipient_id;datatype:int,name:dtsSend_date;datatype:smalldatetime,name:insTemplate_id;datatype:smallint,name:chvLetter_type;datatype:varchar,name:intLetter_id;datatype:int,name:chvLetter_Name;datatype:varchar,name:intSender_id;datatype:int,name:chvSender;datatype:varchar,name:intSubject_id;datatype:int" />
+</info>

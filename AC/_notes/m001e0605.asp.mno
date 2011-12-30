@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<info>
+	<infoitem key="UD_rsExtFS" value="name:intAdult_id;datatype:int,name:intExtFS_id;datatype:int,name:chrExtFS_chbx;datatype:char,name:dtsEntry_date;datatype:smalldatetime,name:bitIsElgb4_ASP;datatype:bit,name:chrElgb_VR;datatype:char,name:chvClaim_no;datatype:varchar,name:bitActive_Claim;datatype:bit,name:dtsClose_date;datatype:smalldatetime,name:dtsLetter_rx;datatype:smalldatetime,name:chvCtcFst_name;datatype:varchar,name:chvCtcMdl_name;datatype:varchar,name:chvCtcLst_name;datatype:varchar,name:chvCtcPh_Arcd;datatype:varchar,name:chvCtcPh_Num;datatype:varchar,name:chvCtcPh_Ext;datatype:varchar,name:chvComment;datatype:varchar" />
+	<infoitem key="UD_requestQStringCount" value="1" />
+	<infoitem key="UD_RequestQString1" value="intExtFS_id" />
+</info>

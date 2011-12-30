@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<info>
+	<infoitem key="UD_RequestQString1" value="intAdult_id" />
+	<infoitem key="UD_requestQStringCount" value="1" />
+	<infoitem key="UD_rsReferral" value="name:intadult_id;datatype:int,name:dtsRefral_date;datatype:smalldatetime,name:chvType;datatype:varchar,name:chvDetails;datatype:varchar,name:intReferral_id;datatype:int" />
+</info>

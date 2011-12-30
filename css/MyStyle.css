@@ -1,0 +1,231 @@
+.btnstyle
+	{
+	font-family: "Times New Roman", Times, serif;
+	font-size:8pt;
+	text-decoration:none;
+	cursor: hand;
+	background-color: #CCCCCC;
+	color: #333333;
+	}
+
+input {
+	color : #000000;
+	font-size : 7pt;
+	font-family: "Verdana";
+	background-color: #FFFFFF;
+	border: 1px solid #999999;
+	}
+
+BODY.MenuBody
+	{
+	background-color: #666666;
+	font-family: verdana;
+	font-size: 8pt;
+	color: #000000;
+	}
+
+
+.chkstyle
+	{
+	border: 0px;
+	background-color: #CCCCCC;
+	}
+
+BODY
+	{
+	background-color: #CCCCCC;
+	font-family: "Times New Roman";
+	font-size: 9pt;
+	color: #333333;
+	font-weight: normal;
+	}
+
+TABLE.Mtable TD
+	{
+	font-family : "verdana";
+	font-size: 7pt;
+	background-color: #ffffe6;
+	}
+
+TABLE.Mtable
+	{
+	border-right:1px solid #CCCCCC;
+	border-top:1px solid #CCCCCC;
+	border-left:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+	padding:0px;
+	overflow:auto;
+	background-color: #ffffe6;
+	}
+
+TABLE
+	{
+	font-family: verdana;
+	font-size: 7pt;
+	}
+
+.HEADROW
+	{
+	font-size: 7pt;
+	font-family: verdana;
+	color: darkblue;
+	background-color: #D4D0C8;
+	border: 1px #999999 solid;
+	}
+
+.ROWA
+	{
+	background-color: #CCCCCC;
+	}
+
+.ROWB
+	{
+	background-color: #EEEEEE;
+	}
+
+H3
+	{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16pt;
+	color: #000099;
+	}
+
+H5
+	{
+	font-family: verdana;
+	font-size: 13pt;
+	color: #A1A192;
+	}
+
+H6
+	{
+	font-family: verdana;
+	font-size: 11pt;
+	color: #8CAAE6;
+	}
+
+HR
+	{
+	color: #E6EAD8;
+	}
+
+A
+	{
+	text-decoration: none;
+	color: #006699;
+	}
+
+A:HOVER
+	{
+	border: 0px none;
+	text-decoration: underline
+	cursor: default
+	}
+
+.RED
+	{
+	color: #FF0000;
+	font-family: "Geneva", "Arial", "Helvetica", "san-serif"
+	}
+
+.GREY
+	{
+	color: #A1A192;
+	}
+
+.BLUE
+	{
+	color: #003399;
+	font-family: "Geneva", "Arial", "Helvetica", "san-serif"
+	}
+
+.GREEN
+	{
+	color: #13920D;
+	font-family: "Geneva", "Arial", "Helvetica", "san-serif"
+	}
+
+Textarea
+	{
+	font-family : Verdana;
+	font-size : 7pt;
+	}
+
+
+
+Select
+	{
+	color : #000000;
+	font-size : 7pt;
+	font-family: "Verdana";
+	}
+
+IMG
+	{
+	border: none;
+	}
+
+.ABSTRACT
+	{
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	color: #66669a;
+	text-decoration: none;
+	background-color: #f1f0ff;
+	border-color: #66669a black;
+	border-top: 1px solid;
+	border-right: 0px solid;
+	border-bottom: 1px solid;
+	border-left: 0px solid;
+	}
+
+.SUBABSTRACT
+	{
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	color: #2a5784;
+	text-decoration: none;
+	background-color: #c9ddf1;
+	border-color: #2a5784 black;
+	border-top: 1px solid;
+	border-right: 0px solid;
+	border-bottom: 1px solid;
+	border-left: 0px solid;
+	}
+
+.CONCRETE
+	{
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	color: #6d6b33;
+	text-decoration: none;
+	background-color: #f1eeab;
+	border-color: #6d6b33 black;
+	border-style: solid;
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px
+	}
+
+.TestPanel
+	{
+	position:absolute;
+	background:#FFFFFF;
+	border-right:2px solid #CCCCCC;
+	border-top:2px solid #999999;
+	border-left:2px solid #999999;
+	border-bottom:2px solid #CCCCCC;
+	padding:5px 2px;
+	overflow:auto;
+	}
+
+.BrowsePanel
+	{
+	position:absolute;
+	background:#FFFFFF;
+	border-right:1px solid #CCCCCC;
+	border-top:1px solid #CCCCCC;
+	border-left:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+	padding:0px;
+	overflow:auto;
+	background-color: #ffffe6;
+	}

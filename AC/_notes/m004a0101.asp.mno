@@ -1,0 +1,5 @@
+<info>
+	<infoitem key="UD_rsOprd2" value="name:intRecID;datatype:int,name:chvObjName;datatype:varchar" />
+	<infoitem key="UD_rsCol" value="name:chvName;datatype:varchar,name:insObjOrder;datatype:smallint" />
+	<infoitem key="UD_rsOprd" value="name:intRecID;datatype:int,name:chvObjName;datatype:varchar" />
+</info>

@@ -1,0 +1,3 @@
+<info>
+	<infoitem key="UD_rsVendor" value="name:intCompany_id;datatype:int,name:chvCompany_Name;datatype:varchar,name:chvAddress;datatype:varchar,name:chvCity;datatype:varchar,name:chvProv;datatype:char,name:chvcntry_name;datatype:varchar,name:intPhone_Type_1;datatype:tinyint,name:chvPhone1_Arcd;datatype:varchar,name:chvPhone1_Num;datatype:varchar,name:chvPhone1_Ext;datatype:varchar" />
+</info>

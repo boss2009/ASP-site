@@ -1,0 +1,3 @@
+<info>
+	<infoitem key="UD_rsFctn" value="name:name;datatype:varchar,name:no;datatype:smallint,name:subno;datatype:smallint,name:Mod;datatype:varchar,name:filename;datatype:varchar,name:Is Item?;datatype:bit" />
+</info>

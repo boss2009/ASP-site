@@ -1,0 +1,3 @@
+<info>
+	<infoitem key="UD_rsMailList" value="name:insMail_list_id;datatype:int,name:chvName;datatype:varchar,name:bitIs_Active;datatype:bit" />
+</info>

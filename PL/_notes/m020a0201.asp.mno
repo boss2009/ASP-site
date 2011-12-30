@@ -1,0 +1,5 @@
+<info>
+	<infoitem key="UD_rsStaff" value="name:insStaff_id;datatype:smallint,name:chvFst_Name;datatype:varchar,name:chvLst_Name;datatype:varchar,name:chvname;datatype:varchar,name:intAddress_id;datatype:int" />
+	<infoitem key="UD_rsFctn" value="name:insFTNid;datatype:int,name:ncvFTNname;datatype:varchar,name:intMODno;datatype:int,name:insFSTno;datatype:smallint,name:insFSTsubno;datatype:smallint,name:ncvMODname;datatype:varchar,name:chvfilename;datatype:varchar,name:bitis_Item;datatype:bit,name:insPJTid;datatype:int" />
+	<infoitem key="UD_rsFunction" value="name:insFTNid;datatype:int,name:ncvFTNname;datatype:varchar,name:intMODno;datatype:int,name:insFSTno;datatype:smallint,name:insFSTsubno;datatype:smallint,name:ncvMODname;datatype:varchar,name:chvfilename;datatype:varchar,name:bitis_Item;datatype:bit,name:insPJTid;datatype:int" />
+</info>

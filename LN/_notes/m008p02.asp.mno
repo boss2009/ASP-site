@@ -1,0 +1,3 @@
+<info>
+	<infoitem key="UD_rsStaff" value="name:insStaff_id;datatype:smallint,name:chvFst_Name;datatype:varchar,name:chvLst_Name;datatype:varchar,name:chvname;datatype:varchar,name:intAddress_id;datatype:int" />
+</info>

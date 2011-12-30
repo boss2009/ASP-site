@@ -1,0 +1,3 @@
+<info>
+	<infoitem key="UD_rsNotes" value="name:insPurchase_Req_id;datatype:smallint,name:int_Note_id;datatype:int,name:chvType_of_Note;datatype:varchar,name:chvNote_Desc;datatype:varchar" />
+</info>

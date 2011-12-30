@@ -1,0 +1,18 @@
+<%@language="JAVASCRIPT"%>
+<!--#include file="../inc/ASPUtility.inc" -->
+<!--#include file="../inc/ASPCheckLogin.inc"-->
+<html>
+<head>
+<title>Inventory Class Search</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<frameset rows="30,*" frameborder="NO" border="0" framespacing="0" cols="*"> 
+  <frame name="SearchPageHeader" scrolling="NO" noresize src="m009p01Hdr.asp" >
+  <frame name="SearchPageBody" src="m009p0102.asp">
+</frameset>
+<noframes> 
+<body>
+Your browser either has frame disabled or does not support frames.
+</body>
+</noframes> 
+</html>

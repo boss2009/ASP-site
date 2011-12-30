@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<info>
+	<infoitem key="UD_rsUsrGrp" value="name:insUsrLevel;datatype:smallint,name:chvUsrLevel;datatype:varchar,name:bitSys_create;datatype:bit,name:bitSys_read;datatype:bit,name:bitSys_update;datatype:bit,name:bitSys_delete;datatype:bit,name:bitSys_execute;datatype:bit,name:bitPwd_create;datatype:bit,name:bitPwd_read;datatype:bit,name:bitPwd_update;datatype:bit,name:bitPwd_delete;datatype:bit" />
+	<infoitem key="UD_Request1" value="insUsrLevel" />
+	<infoitem key="UD_requestCount" value="1" />
+</info>

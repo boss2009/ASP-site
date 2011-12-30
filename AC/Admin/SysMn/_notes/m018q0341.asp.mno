@@ -1,0 +1,3 @@
+<info>
+	<infoitem key="UD_rsLetterTemplate" value="name:insTemplate_id;datatype:smallint,name:chvTemplate_Type;datatype:varchar,name:chvTemplate_Name;datatype:varchar,name:insObj_Type_id;datatype:smallint,name:insDocType;datatype:smallint,name:chvDocType;datatype:varchar,name:chvFileName;datatype:varchar,name:insCreator_user_id;datatype:smallint,name:dtsRec_Create_date;datatype:smalldatetime,name:insMod_user_id;datatype:smallint,name:dtsRec_Mod_date;datatype:smalldatetime" />
+</info>

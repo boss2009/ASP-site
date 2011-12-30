@@ -1,0 +1,7 @@
+<info>
+	<infoitem key="UD_Recordset1" value="name:insFSTno;datatype:smallint,name:ncvFTNname;datatype:varchar,name:insMODid;datatype:smallint" />
+	<infoitem key="UD_rsFctn" value="name:insFSTno;datatype:smallint,name:ncvFTNname;datatype:varchar,name:insMODid;datatype:smallint,name:bitis_Item;datatype:bit" />
+	<infoitem key="UD_rsPjt" value="name:insPJTid;datatype:int,name:ncvPJTName;datatype:varchar" />
+	<infoitem key="UD_rsMOD" value="name:insId;datatype:smallint,name:intMODno;datatype:int,name:ncvMODname;datatype:varchar,name:insPJTid;datatype:int" />
+	<infoitem key="UD_rsModule" value="name:insId;datatype:smallint,name:intMODno;datatype:int,name:ncvMODname;datatype:varchar,name:chvQuery_fname;datatype:varchar,name:insPJTid;datatype:int,name:chvDesktop_fname;datatype:varchar" />
+</info>

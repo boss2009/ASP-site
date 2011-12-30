@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<info>
+	<infoitem key="UD_rsClient" value="name:Adult_Id;datatype:int,name:Name;datatype:varchar,name:Disability;datatype:varchar,name:Status;datatype:varchar,name:Region;datatype:varchar,name:PEN;datatype:char,name:Case Manager;datatype:varchar,name:Referral_Date;datatype:smalldatetime,name:Re-referral_Date;datatype:smalldatetime" />
+</info>

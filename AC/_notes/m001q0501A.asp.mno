@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<info>
+	<infoitem key="UD_rseduHstry" value="name:intEduHst_id;datatype:int,name:intAdult_id;datatype:int,name:chvschool;datatype:varchar,name:chvpgm_name;datatype:varchar,name:dtsStart;datatype:smalldatetime,name:chvduration;datatype:varchar,name:chvPgm_Type;datatype:varchar,name:chvStdnum;datatype:varchar,name:chrPEN_num;datatype:varchar,name:Status;datatype:varchar" />
+	<infoitem key="UD_RequestQString1" value="intAdult_id" />
+	<infoitem key="UD_requestQStringCount" value="1" />
+</info>

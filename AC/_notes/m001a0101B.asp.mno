@@ -1,0 +1,7 @@
+<info>
+	<infoitem key="UD_rsRegion" value="name:insRegion_num;datatype:smallint,name:chvname;datatype:varchar,name:chvabbrev;datatype:varchar,name:intaddress_id;datatype:int" />
+	<infoitem key="UD_rsStdSts" value="name:insStdnt_status_id;datatype:smallint,name:chvName;datatype:varchar" />
+	<infoitem key="UD_rsCseMgr" value="name:insId;datatype:smallint,name:chvName;datatype:varchar" />
+	<infoitem key="UD_rsDisability" value="name:insDisability_id;datatype:smallint,name:chvname;datatype:varchar" />
+	<infoitem key="UD_rsCaseManager" value="name:insId;datatype:smallint,name:chvName;datatype:varchar" />
+</info>

@@ -1,0 +1,4 @@
+<info>
+	<infoitem key="UD_rsInventoryHeader" value="name:intEquip_Set_id;datatype:int,name:chvInventory_Name;datatype:varchar,name:chvCurrent_Status;datatype:varchar,name:insIdvUser_id;datatype:smallint,name:chvIdv_Usr_Nm;datatype:varchar,name:insInstit_User_id;datatype:smallint,name:chvInstit_Usr_Nm;datatype:varchar,name:chvDtlVendor;datatype:varchar" />
+	<infoitem key="UD_rsPurchaseHeader" value="name:insPurchase_Req_id;datatype:smallint,name:insPurchase_sts_id;datatype:smallint,name:chvPurchase_Status;datatype:varchar,name:dtsDate_Ordered;datatype:smalldatetime,name:chvCurrency;datatype:varchar,name:bitIs_can_currency;datatype:bit,name:chvVendor;datatype:varchar,name:insVendor_id;datatype:smallint" />
+</info>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<info>
+	<infoitem key="UD_rsClnCtc" value="name:intAdult_id;datatype:int,name:intContact_id;datatype:int,name:dtsEntrydate;datatype:smalldatetime,name:chvRelationship;datatype:varchar,name:chvName;datatype:varchar,name:Inst_Company;datatype:varchar,name:chvJob_title;datatype:varchar,name:Office_no.;datatype:varchar,name:Work_no.;datatype:varchar,name:chvemail;datatype:varchar" />
+	<infoitem key="UD_RequestQString1" value="intAdult_id" />
+	<infoitem key="UD_requestQStringCount" value="1" />
+</info>

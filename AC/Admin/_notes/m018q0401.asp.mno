@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<info>
+	<infoitem key="UD_rsUsrGrp" value="name:insUsrLevel;datatype:smallint,name:chvUsrLevel;datatype:varchar,name:chvSys_create;datatype:varchar,name:chvSys_read;datatype:varchar,name:chvSys_update;datatype:varchar,name:chvSys_delete;datatype:varchar,name:chvSys_execute;datatype:varchar,name:chvPwd_create;datatype:varchar,name:chvPwd_read;datatype:varchar,name:chvPwd_update;datatype:varchar,name:chvPwd_delete;datatype:varchar" />
+</info>

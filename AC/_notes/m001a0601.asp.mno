@@ -1,0 +1,3 @@
+<info>
+	<infoitem key="UD_rsreferral" value="name:intadult_id;datatype:int,name:dtsRefral_date;datatype:smalldatetime,name:chvType;datatype:varchar,name:chvDetails;datatype:varchar,name:intReferral_id;datatype:int" />
+</info>

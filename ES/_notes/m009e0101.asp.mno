@@ -1,0 +1,3 @@
+<info>
+	<infoitem key="UD_rsRegion" value="name:insRegion_num;datatype:smallint,name:chvname;datatype:varchar,name:chvabbrev;datatype:varchar,name:intaddress_id;datatype:int" />
+</info>

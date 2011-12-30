@@ -1,0 +1,9 @@
+<info>
+	<infoitem key="UD_rsRegion" value="name:insRegion_num;datatype:smallint,name:chvname;datatype:varchar,name:chvabbrev;datatype:varchar,name:intaddress_id;datatype:int" />
+	<infoitem key="UD_rsStdSts" value="name:insStdnt_status_id;datatype:smallint,name:chvName;datatype:varchar" />
+	<infoitem key="UD_rsCseMgr" value="name:insId;datatype:smallint,name:chvName;datatype:varchar" />
+	<infoitem key="UD_rsDisability" value="name:insDisability_id;datatype:smallint,name:chvname;datatype:varchar" />
+	<infoitem key="UD_rsCaseManager" value="name:insId;datatype:smallint,name:chvName;datatype:varchar" />
+	<infoitem key="UD_cmdInsert" value="name:RETURN_VALUE;direction:4;datatype:int;,name:@intpID;direction:1;datatype:int;,name:@chvFst_name;direction:1;datatype:varchar;,name:@chvMdl_name;direction:1;datatype:varchar;,name:@chvLst_name;direction:1;datatype:varchar;,name:@chrSIN_no;direction:1;datatype:char;,name:@dtsBirth_date;direction:1;datatype:smalldatetime;,name:@insStdnt_Status_id;direction:1;datatype:smallint;,name:@insDsbty1_id;direction:1;datatype:smallint;,name:@insCase_mngr_id;direction:1;datatype:smallint;,name:@insRegion_num;direction:1;datatype:smallint;,name:@chrPEN_num;direction:1;datatype:char;,name:@bitIs_FirstNations;direction:1;datatype:bit;,name:@bitGender_is_male;direction:1;datatype:bit;,name:@insUser_id;direction:1;datatype:smallint;,name:@inspSrtBy;direction:1;datatype:smallint;,name:@inspSrtOrd;direction:1;datatype:smallint;,name:@chvFilter;direction:1;datatype:varchar;,name:@insMode;direction:1;datatype:tinyint;,name:@chvTask;direction:1;datatype:char;,name:@intRtnValue;direction:2;datatype:int;" />
+	<infoitem key="UD_rsStatus" value="name:insStdnt_status_id;datatype:smallint,name:chvName;datatype:varchar" />
+</info>

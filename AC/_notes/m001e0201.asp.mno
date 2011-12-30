@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<info>
+	<infoitem key="UD_rsRHdr" value="name:intReferral_id;datatype:int,name:intadult_id;datatype:int,name:dtsRefral_date;datatype:smalldatetime,name:bitIs_New;datatype:bit,name:bitIs_Loan;datatype:bit,name:bitIs_Grant;datatype:bit,name:bitIs_PS_Loan;datatype:bit,name:bitIs_VRS_Emply_Loan;datatype:bit,name:bitIs_VRS_PSTP_Loan;datatype:bit,name:bitIs_VRS_Train_Loan;datatype:bit,name:bitIs_PS_PILAT_Loan;datatype:bit,name:bitIs_ASP_PILAT_Loan;datatype:bit,name:bitIs_PS_CSG_Grant;datatype:bit,name:bitIs_PS_APSD_Grant;datatype:bit,name:bitIs_VRS_CSG_Grant;datatype:bit,name:bitIs_PS_CSG_APSD_ASP;datatype:bit,name:bitIs_PS_CSG_PILAT;datatype:bit" />
+	<infoitem key="UD_requestFormCount" value="1" />
+	<infoitem key="UD_RequestForm1" value="txtAdult_id" />
+</info>

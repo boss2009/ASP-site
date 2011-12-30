@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<info>
+	<infoitem key="UD_rsGrant" value="name:intReferral_id;datatype:int,name:intadult_id;datatype:int,name:dtsRefral_date;datatype:smalldatetime,name:Period_Frm;datatype:varchar,name:Period_To;datatype:varchar,name:chvGrant_type;datatype:varchar" />
+</info>

@@ -1,0 +1,4 @@
+<info>
+	<infoitem key="UD_rsSysOptr" value="name:intRecID;datatype:int,name:intOptrId;datatype:int,name:chvOptrDesc;datatype:varchar,name:bitIs_ColDstStg;datatype:bit,name:bitIs_Date;datatype:bit" />
+	<infoitem key="UD_rsOprd" value="name:intRecID;datatype:int,name:chvObjName;datatype:varchar" />
+</info>

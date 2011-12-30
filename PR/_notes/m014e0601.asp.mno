@@ -1,0 +1,3 @@
+<info>
+	<infoitem key="UD_rsInventoryReceived" value="name:insRqst_received_id;datatype:smallint,name:insPurchase_Req_id;datatype:smallint,name:chvClass_name;datatype:varchar,name:insEquip_class_id;datatype:int,name:intQuantity_Ordered;datatype:int,name:intQuantity_Received;datatype:int,name:intBack_Order;datatype:int,name:dtsReceived;datatype:smalldatetime,name:dtsBOReceived;datatype:smalldatetime,name:fltList_unit_cost;datatype:float,name:fltTotal_cost;datatype:float,name:chvNotes;datatype:varchar" />
+</info>

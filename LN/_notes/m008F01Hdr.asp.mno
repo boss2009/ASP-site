@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<info>
+	<infoitem key="UD_rsTab" value="name:name;datatype:varchar,name:filename;datatype:varchar,name:no;datatype:smallint,name:subno;datatype:smallint,name:Mod;datatype:varchar,name:Is Item?;datatype:bit" />
+</info>

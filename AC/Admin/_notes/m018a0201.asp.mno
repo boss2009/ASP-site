@@ -1,0 +1,5 @@
+<info>
+	<infoitem key="UD_rsPjt" value="name:insPJTid;datatype:int,name:ncvPJTName;datatype:varchar" />
+	<infoitem key="UD_rsMod" value="name:insId;datatype:smallint,name:intMODno;datatype:int,name:ncvMODname;datatype:varchar,name:insPJTid;datatype:int" />
+	<infoitem key="UD_rsProject" value="name:insPJTid;datatype:smallint,name:ncvPJTName;datatype:varchar" />
+</info>

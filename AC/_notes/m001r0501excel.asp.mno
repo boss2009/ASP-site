@@ -1,0 +1,3 @@
+<info>
+	<infoitem key="UD_rsAdult" value="name:intAdult_Id;datatype:int,name:chvLst_Name;datatype:varchar,name:chvFst_Name;datatype:varchar,name:dtsRefral_date;datatype:smalldatetime,name:dtsRe_refral_date;datatype:smalldatetime,name:chvDisability;datatype:varchar,name:chvRegion;datatype:varchar,name:chvStatus;datatype:varchar,name:chrSIN_no;datatype:char,name:chvCaseManager;datatype:varchar,name:chrGender;datatype:varchar,name:intAge;datatype:int,name:bitIs_Prx_SETBC;datatype:bit,name:bitIs_Prx_PRCVI;datatype:bit,name:intStdnt_addr_id;datatype:int,name:intAlt_Addr_id;datatype:int" />
+</info>

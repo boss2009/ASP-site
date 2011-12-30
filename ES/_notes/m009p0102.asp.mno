@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsSysOptr" value="name:intRecID;datatype:int,name:intOptrId;datatype:int,name:chvOptrDesc;datatype:varchar,name:bitIs_ColDstStg;datatype:bit,name:bitIs_Date;datatype:bit" />
+</info>

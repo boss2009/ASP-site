@@ -1,0 +1,4 @@
+<info>
+	<infoitem key="UD_rsIssuePriority" value="name:ncvPriority_desc;datatype:varchar,name:intPriority_id;datatype:int,name:intPriority_order;datatype:int,name:ncvPriority_color;datatype:varchar" />
+	<infoitem key="UD_rsIssueStatus" value="name:intStatus_id;datatype:int,name:ncvStatus;datatype:varchar" />
+</info>

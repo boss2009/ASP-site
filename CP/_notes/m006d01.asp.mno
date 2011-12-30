@@ -1,0 +1,6 @@
+<info>
+	<infoitem key="UD_rsStaff" value="name:insStaff_id;datatype:smallint,name:chvFst_Name;datatype:varchar,name:chvLst_Name;datatype:varchar,name:chvName;datatype:varchar,name:intAddress_id;datatype:int,name:chvJobTitle;datatype:varchar,name:bitis_active;datatype:bit,name:chvAddress;datatype:varchar,name:chvCity;datatype:varchar,name:chrprvst_abbv;datatype:char,name:chvCntry_Name;datatype:varchar,name:chvPostal_zip;datatype:varchar" />
+	<infoitem key="UD_RequestQString1" value="intMOD_id" />
+	<infoitem key="UD_requestQStringCount" value="1" />
+	<infoitem key="UD_rsDesktop" value="name:insDT_id;datatype:smallint,name:intObject_id;datatype:int,name:insMOD_id;datatype:int,name:chvName;datatype:varchar,name:dtmLast_Open;datatype:smalldatetime" />
+</info>

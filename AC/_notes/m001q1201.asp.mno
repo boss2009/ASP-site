@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<info>
+	<infoitem key="UD_rsNotesSrv" value="name:intSrv_Note_id;datatype:int,name:intAdult_id;datatype:int,name:dtsService_Date;datatype:smalldatetime,name:chvYear;datatype:varchar,name:chvCycle;datatype:varchar,name:chvSrv_Prvder;datatype:varchar,name:chvSrv_Code;datatype:varchar,name:chvNote_type;datatype:varchar,name:chvFunding_Src;datatype:varchar,name:chvNotes;datatype:varchar" />
+</info>

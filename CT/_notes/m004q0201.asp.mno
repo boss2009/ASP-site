@@ -1,0 +1,5 @@
+<info>
+	<infoitem key="UD_RequestQString1" value="intAdult_id" />
+	<infoitem key="UD_requestQStringCount" value="1" />
+	<infoitem key="UD_ChkAdultAddress" value="name:RETURN_VALUE;direction:4;datatype:int;,name:@intAdult_id;direction:1;datatype:int;,name:@insRtnFlag;direction:2;datatype:smallint;" />
+</info>

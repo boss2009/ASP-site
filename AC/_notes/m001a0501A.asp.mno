@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<info>
+	<infoitem key="UD_rs" value="name:insDuratn_type_id;datatype:smallint,name:chvDuratn_desc;datatype:varchar,name:chrAbbrev;datatype:varchar" />
+	<infoitem key="UD_rsDurType" value="name:insDuratn_type_id;datatype:smallint,name:chvDuratn_desc;datatype:varchar" />
+	<infoitem key="UD_rsEduHstry" value="name:intEduHst_id;datatype:int,name:intAdult_id;datatype:int,name:insSchool_id;datatype:smallint,name:chvPgm_Name;datatype:varchar,name:insProg_type_id;datatype:smallint,name:dtsStart_date;datatype:smalldatetime,name:insDurtn_Qty;datatype:smallint,name:insDuratn_type_id;datatype:smallint,name:chvAdult_num;datatype:char,name:bitIs_Active;datatype:bit,name:chvnotes;datatype:varchar" />
+	<infoitem key="UD_rsSchool" value="name:insSchool_id;datatype:smallint,name:chvName;datatype:varchar,name:insSchool_type_id;datatype:smallint" />
+	<infoitem key="UD_requestFormCount" value="0" />
+	<infoitem key="UD_rsClient" value="name:intAdult_Id;datatype:int,name:chvLst_Name;datatype:varchar,name:chvFst_Name;datatype:varchar,name:intAge;datatype:int,name:insRegion_num;datatype:smallint,name:insStdnt_status_id;datatype:smallint,name:insDsbty1_id;datatype:smallint,name:insDsbty2_id;datatype:smallint,name:insCase_mngr_id;datatype:smallint,name:chvPENno;datatype:char,name:intStdnt_addr_id;datatype:int,name:intAlt_Addr_id;datatype:int" />
+	<infoitem key="UD_rsPgmType" value="name:insProg_type_id;datatype:smallint,name:chvname;datatype:varchar" />
+	<infoitem key="UD_rsReferral" value="name:intadult_id;datatype:int,name:dtsRefral_date;datatype:smalldatetime,name:chvType;datatype:varchar,name:chvDetails;datatype:varchar,name:intReferral_id;datatype:int" />
+</info>

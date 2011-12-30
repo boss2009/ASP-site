@@ -1,0 +1,3 @@
+<info>
+	<infoitem key="UD_rsPurchaseStatus" value="name:insPurchase_sts_id;datatype:smallint,name:chvPurchase_name;datatype:varchar,name:bitIs_Active;datatype:bit" />
+</info>

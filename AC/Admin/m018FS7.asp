@@ -1,0 +1,18 @@
+<%@language="JAVASCRIPT"%>
+<!--#include file="../inc/ASPUtility.inc" -->
+<!--#include file="../inc/ASPCheckAdminLogin.inc" -->
+<html>
+<head>
+	<title>Archive</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<frameset cols="140,*" frameborder="NO" border="0" framespacing="0" rows="*"> 
+	<frame name="ArchiveFrameHeader" scrolling="NO" src="m018F7Hdr.asp">
+	<frame name="ArchiveFrameBody" scrolling="YES" noresize src="m018q0701.asp" >
+</frameset>
+<noframes> 
+<body>
+Your browser either has frame disabled or does not support frames.
+</body>
+</noframes> 
+</html>

@@ -1,0 +1,3 @@
+<info>
+	<infoitem key="UD_rsSummary" value="name:intStatus_id;datatype:int,name:ncvStatus;datatype:varchar,name:intRecCnt;datatype:int" />
+</info>

@@ -1,0 +1,4 @@
+<info>
+	<infoitem key="UD_rsSysOptr" value="name:intRecID;datatype:int,name:intOptrId;datatype:int,name:chvOptrDesc;datatype:varchar,name:bitIs_ColDstStg;datatype:bit,name:bitIs_Date;datatype:bit" />
+	<infoitem key="UD_rsVendor" value="name:intCompany_id;datatype:int,name:chvName;datatype:varchar,name:chrCmpCls;datatype:char,name:chrCompany_Type;datatype:varchar,name:chrIs_Vendor;datatype:varchar,name:chrIs_Mnfucter;datatype:varchar,name:chrIs_SrvPvdr;datatype:varchar,name:chvAddress;datatype:varchar,name:chvCity;datatype:varchar,name:intprvst_id;datatype:int,name:chrprvst_abbv;datatype:char,name:intcntry_id;datatype:int,name:chvcntry_name;datatype:varchar,name:chvPostal_zip;datatype:varchar,name:intPhone_Type_1;datatype:tinyint,name:chvPhone1_Arcd;datatype:varchar,name:chvPhone1_Num;datatype:varchar,name:chvPhone1_Ext;datatype:varchar" />
+</info>

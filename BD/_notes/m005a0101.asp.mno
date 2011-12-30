@@ -1,0 +1,4 @@
+<info>
+	<infoitem key="UD_rsType" value="name:intWork_type_id;datatype:int,name:chvWork_type_desc;datatype:varchar,name:bitIs_active;datatype:bit" />
+	<infoitem key="UD_cmdInsertBundle" value="name:RETURN_VALUE;direction:4;datatype:int;,name:@intRecId;direction:1;datatype:int;,name:@chvBundle_Name;direction:1;datatype:varchar;,name:@FltList_Unit_Cost;direction:1;datatype:float;,name:@intPrice_Qty_id;direction:1;datatype:int;,name:@bitFor_CSG;direction:1;datatype:bit;,name:@bitFor_Loan;direction:1;datatype:bit;,name:@chrBundle_Type;direction:1;datatype:char;,name:@bitBundle_Status;direction:1;datatype:bit;,name:@insUser_id;direction:1;datatype:smallint;,name:@inspSrtBy;direction:1;datatype:smallint;,name:@inspSrtOrd;direction:1;datatype:smallint;,name:@chvFilter;direction:1;datatype:varchar;,name:@insMode;direction:1;datatype:tinyint;,name:@chvTask;direction:1;datatype:char;,name:@intRtnFlag;direction:2;datatype:int;" />
+</info>

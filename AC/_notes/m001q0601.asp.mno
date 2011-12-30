@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<info>
+	<infoitem key="UD_rsDsbtyDoc" value="name:intDbtyDoc_id;datatype:int,name:intAdult_id;datatype:int,name:chvType;datatype:varchar,name:chvLoc;datatype:varchar,name:dtsDocDate;datatype:smalldatetime,name:chvDiagnosis;datatype:varchar,name:bitPermanent;datatype:varchar,name:bitEligible;datatype:varchar,name:chvSpecialist;datatype:varchar,name:chvPhone;datatype:varchar" />
+	<infoitem key="UD_RequestQString1" value="intAdult_id" />
+	<infoitem key="UD_requestQStringCount" value="1" />
+</info>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<info>
+	<infoitem key="UD_rsFlwup" value="name:intFlwup_id;datatype:int,name:intAdult_id;datatype:int,name:dtsBOdue_date;datatype:smalldatetime,name:chrInvoice_no;datatype:char,name:dtsInvSend_date;datatype:smalldatetime,name:fltAmtDue;datatype:float,name:fltPayAmtRx;datatype:float,name:dtsPayRxdate;datatype:smalldatetime,name:chvPay_in_full;datatype:varchar,name:chvPayby;datatype:varchar,name:dtsDefault;datatype:smalldatetime" />
+</info>

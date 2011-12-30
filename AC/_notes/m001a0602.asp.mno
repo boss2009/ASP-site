@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<info>
+	<infoitem key="UD_rsSemester" value="name:insSmstr_id;datatype:smallint,name:chvsmstr_name;datatype:varchar" />
+	<infoitem key="UD_rsCseType" value="name:insCourse_id;datatype:smallint,name:chvcourse_name;datatype:varchar" />
+	<infoitem key="UD_rsEduDoc" value="name:intEnroll_id;datatype:int,name:intReferral_id;datatype:int,name:insSmstr_id;datatype:smallint,name:insCourse_id;datatype:smallint,name:insYear;datatype:smallint,name:insNum_of_Course;datatype:smallint,name:bitIsElgb4_ASP;datatype:bit,name:chvComment;datatype:varchar" />
+	<infoitem key="UD_rsReferral" value="name:intadult_id;datatype:int,name:dtsRefral_date;datatype:smalldatetime,name:chvType;datatype:varchar,name:chvDetails;datatype:varchar,name:intReferral_id;datatype:int" />
+</info>

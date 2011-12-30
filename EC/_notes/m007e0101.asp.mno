@@ -1,0 +1,3 @@
+<info>
+	<infoitem key="UD_AbsClass" value="name:insAbsCls_id;datatype:smallint,name:insSubAbsCls_id;datatype:smallint,name:insCnctCls_id;datatype:smallint,name:chvAbsClsName;datatype:varchar,name:chvSubAbsClsName;datatype:varchar,name:chvCnctClsName;datatype:varchar" />
+</info>

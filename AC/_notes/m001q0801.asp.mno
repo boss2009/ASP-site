@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<info>
+	<infoitem key="UD_rsBuyout" value="name:intBuyout_Req_id;datatype:int,name:intEq_user_id;datatype:int,name:dtsProcess;datatype:smalldatetime,name:chvPayStatus;datatype:varchar,name:dtsReturn;datatype:varchar,name:intEquip_Set_id;datatype:int,name:chvInventory_Name;datatype:varchar,name:chvequip_status;datatype:varchar,name:chvDtlVendor;datatype:varchar,name:intRequisition_no;datatype:int,name:dtsRec_Date;datatype:varchar,name:fltPurchase_Cost;datatype:varchar,name:fltEqp_Sold_price;datatype:varchar" />
+</info>

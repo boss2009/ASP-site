@@ -1,0 +1,3 @@
+<info>
+	<infoitem key="UD_rsPjt_fctn" value="name:intIssue_id;datatype:int,name:chvSubject;datatype:varchar,name:chvDescription;datatype:varchar,name:intUser_id;datatype:int,name:chvSubmitted_by;datatype:varchar,name:intPriority_id;datatype:int,name:chvPriority;datatype:varchar,name:intStatus_id;datatype:int,name:chvStatus;datatype:varchar,name:ncvVersion;datatype:varchar,name:bitApproved;datatype:bit,name:chvApproved;datatype:varchar,name:bitTested;datatype:bit,name:chvTested;datatype:varchar,name:intAssigned_to_orig;datatype:int,name:chvAsigned_to_Orig;datatype:varchar,name:intAssigned_to;datatype:int,name:chvAsigned_to;datatype:varchar,name:insFTNid;datatype:smallint,name:ncvFTNname;datatype:varchar,name:dtsDate_submitted;datatype:smalldatetime" />
+</info>

@@ -1,0 +1,3 @@
+<info>
+	<infoitem key="UD_rsNotes" value="name:intEquip_Set_id;datatype:int,name:chvInventory_Name;datatype:varchar,name:dtsIvtry_Create_date;datatype:smalldatetime,name:intIvtry_Note_id;datatype:int,name:chrNote_Type;datatype:char,name:chvNote_Desc;datatype:varchar,name:dtsNote_Create_date;datatype:smalldatetime" />
+</info>

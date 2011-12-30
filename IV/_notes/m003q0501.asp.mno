@@ -1,0 +1,3 @@
+<info>
+	<infoitem key="UD_rsBuyoutHistory" value="name:intEquip_set_id;datatype:int,name:intBuyout_Req_id;datatype:int,name:chvBuyout_name;datatype:varchar,name:intEq_user_id;datatype:int,name:insEq_user_type;datatype:smallint,name:chvSold_to;datatype:varchar,name:dtsProcessed_date;datatype:smalldatetime,name:dtsDlvy_date;datatype:smalldatetime,name:insBuyout_Status_id;datatype:smallint,name:chvBO_Status;datatype:varchar,name:dtsRequest_date;datatype:smalldatetime,name:dtsDate_returned;datatype:smalldatetime,name:fltEqp_Sold_price;datatype:float" />
+</info>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<info>
+	<infoitem key="UD_rsLogMster" value="name:insStaff_id;datatype:smallint,name:chvName;datatype:varchar,name:chvULDesc;datatype:varchar,name:chrUsrId;datatype:char,name:chrPwd;datatype:char,name:insUsrLevel;datatype:smallint" />
+</info>

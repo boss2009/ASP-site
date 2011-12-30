@@ -1,0 +1,1 @@
+This folder collects Equipment Class (m007) files

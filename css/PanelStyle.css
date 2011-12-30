@@ -1,0 +1,50 @@
+BODY
+	{
+	background-color: #CCCCCC;
+	scrollbar-3dlight-color:#CCCCCC;
+	scrollbar-arrow-color: #FFFFFF;
+	scrollbar-base-color: #FFFFFF;
+	scrollbar-darkshadow-color:;
+	scrollbar-face-color:#666666;
+	scrollbar-highlight-color:#CCCCCC;
+	scrollbar-shadow-color #333333:
+	}
+
+
+.MenuItem
+	{
+	background-color: #999999;
+	border-color: #CCCCCC #333333 #333333 #CCCCCC;
+	border-style: solid;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px
+	}
+
+HR
+	{
+	color: #E6EAD8;
+	background-color: #CCCCCC;
+	}
+
+A
+	{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-transform: none;
+	text-decoration: none;
+	background-color: #999999;
+	}
+
+A:HOVER
+	{
+	color: orange;
+	}
+
+IMG
+	{
+	border: none;
+	}

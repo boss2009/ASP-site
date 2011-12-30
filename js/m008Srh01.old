@@ -1,0 +1,140 @@
+// ------------------------------------------
+// Description: singular items filter construct
+// caller : (1) m008q01.asp
+//
+// Note : this script assumes the following var
+//        are defined at the caller - 
+//        (1) stgFilter
+//        (2) chvOprd
+//        (3) chrNot
+//        (4) chvOptr
+//        (5) chvStg1
+//        (6) chvStg2
+//
+//        Filter for (i)  Region     #180
+//                   (ii) Disability #181
+//        are coded at ASP files  
+//
+// Update Log: 
+// ===========
+//    - updated script regarding Advanced & Power Search    + Dec.12.2002
+// ------------------------------------------
+// debug
+function ACfltr_08(chvOprd,chrNot,chvOptr,chvStg1,chvStg2) {
+
+//   document.write("<B><B><B> at Callee(m008Srh01.js): chvOprd - "+chvOprd+" chvOptr - "+chvOptr+"<P>") ;
+//
+   var stgFilter = "" ;
+      switch (chvOprd) {
+// Client First Name
+        case "169" :stgFilter += " insEq_user_type = 3 AND chvUsr_Fstname " ;
+		           switch(chvOptr) {
+				      case "1" : stgFilter += "LIKE '" + chvStg1 + "%25'  ";   break;
+				      case "2" : stgFilter += "LIKE '%25" + chvStg1 + "%25' "; break;
+				      case "3" : stgFilter += "= '"     + chvStg1 + "'  ";     break;
+				      case "4" : stgFilter += "LIKE '%25"  + chvStg1 + "' ";   break;
+				   };
+				   break;
+// Client Last Name
+        case "170" :stgFilter += " insEq_user_type = 3 AND chvUsr_Lstname " ;
+		           switch(chvOptr) {
+				      case "1" : stgFilter += "LIKE '" + chvStg1 + "%25'  ";   break;
+				      case "2" : stgFilter += "LIKE '%25" + chvStg1 + "%25' "; break;
+				      case "3" : stgFilter += "= '"     + chvStg1 + "'  ";     break;
+				      case "4" : stgFilter += "LIKE '%25"  + chvStg1 + "' ";   break;
+				   };
+				   break;
+// School Name
+        case "171" :stgFilter += " insEq_user_type = 4 AND chvSchool " ;
+		           switch(chvOptr) {
+				      case "1" : stgFilter += "LIKE '" + chvStg1 + "%25'  ";   break;
+				      case "2" : stgFilter += "LIKE '%25" + chvStg1 + "%25' "; break;
+				      case "3" : stgFilter += "= '"     + chvStg1 + "'  ";     break;
+				      case "4" : stgFilter += "LIKE '%25"  + chvStg1 + "' ";   break;
+				   };
+				   break;
+// Staff First Name
+        case "172" :stgFilter += " insEq_user_type = 1 AND chvUsr_Fstname " ;
+		           switch(chvOptr) {
+				      case "1" : stgFilter += "LIKE '" + chvStg1 + "%25'  ";   break;
+				      case "2" : stgFilter += "LIKE '%25" + chvStg1 + "%25' "; break;
+				      case "3" : stgFilter += "= '"     + chvStg1 + "'  ";     break;
+				      case "4" : stgFilter += "LIKE '%25"  + chvStg1 + "' ";   break;
+				   };
+				   break;
+// Staff Last Name
+        case "173" :stgFilter += " insEq_user_type = 1 AND chvUsr_Lstname " ;
+		           switch(chvOptr) {
+				      case "1" : stgFilter += "LIKE '" + chvStg1 + "%25'  ";   break;
+				      case "2" : stgFilter += "LIKE '%25" + chvStg1 + "%25' "; break;
+				      case "3" : stgFilter += "= '"     + chvStg1 + "'  ";     break;
+				      case "4" : stgFilter += "LIKE '%25"  + chvStg1 + "' ";   break;
+				   };
+				   break;
+// Processed date                           + Dec.12.2002
+        case "174" :stgFilter += " dtsUser_Ship_date '" + chvStg1 + "'" ;
+		           stgFilter += " AND '" + chvStg2 + "'" ; 
+		           break;
+// Equip. on backorder
+        case "176" :if (chvOptr == '14' ) { 
+		             stgFilter += " bitIsBack_Ordered = 1 " ; 
+				   } else { 
+					 stgFilter += " bitIsBack_Ordered = 0 " ;
+                   };
+				   break;
+// Delivered Date                           + Dec.12.2002
+        case "177" :stgFilter += " dtsDlvy_date '" + chvStg1 + "'" ;
+		           stgFilter += " AND '" + chvStg2 + "'" ; 
+		           break;
+// Loan due date 
+        case "178" :stgFilter += " dtsLoan_Due_Date '" + chvStg1 + "'" ;
+		           stgFilter += " AND '" + chvStg2 + "'" ; 
+		           break;
+// Delivered on schedule                    + Dec.12.2002 
+        case "179" :if (chvOptr == '14' ) { 
+		             stgFilter += " bitIsDlvy_onshdl = 1 " ; 
+				   } else { 
+					 stgFilter += " bitIsDlvy_onshdl = 0 " ;
+                   };
+				   break;
+// Loan Status
+        case "183" :stgFilter += " insLoan_Status_id = " + chvStg1 ;
+		           break;
+// Equip. user type
+        case "184" :stgFilter += " insEq_user_type = '"   + chvStg1 + "'  ";
+		           break;
+// Loan Type
+        case "186" :stgFilter += " insLoan_Type_id = '"   + chvStg1 + "'  ";
+		           break;
+// Shipping Method                         + Dec.12.2002 
+        case "187" :stgFilter += " insShip_Method_id = " + chvStg1 ;
+		           break;
+// Requested Equipment Class               + Dec.12.2002
+        case "193" :stgFilter += " bitIs_ReqIvtry_Class = 1 AND insReqIvtry_Class_bundle_id = " + chvStg1 ;
+		           break;
+// Loaned Equipment Class                  + Dec.13.2002   
+        case "194" :stgFilter += " insLoan_Class_id = " + chvStg1 ;
+		           break;
+// Delay Delivery Resolved                 + Dec.16.2002   
+        case "194" :stgFilter += " bitIsDlvy_delay = " + chvStg1 ;
+		           break;
+// Case manager                            + Dec.12.2002
+        case "215" :stgFilter += " insCase_mngr_id = " + chvStg1 ;
+		           break;
+// Inventory Id (Loaned Equipment ID)      + Dec.13.2002
+        case "216" :stgFilter += " insInventory_id = " + chvStg1 ;
+		           break;
+// Referral Date                           + Dec.16.2002
+        case "217" :stgFilter += " dtsRefral_date '" + chvStg1 + "'" ;
+		           stgFilter += " AND '" + chvStg2 + "'" ; 
+		           break;
+// Re-referral Date                        + Dec.16.2002
+        case "218" :stgFilter += " dtsRe_refral_date '" + chvStg1 + "'" ;
+		           stgFilter += " AND '" + chvStg2 + "'" ; 
+		           break;
+// end switch
+      }  
+//alert("stgFilter is - "+stgFilter);
+
+   return (stgFilter) ;
+}

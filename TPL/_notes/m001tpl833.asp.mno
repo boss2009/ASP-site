@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<info>
+	<infoitem key="UD_rsClient" value="name:intAdult_id;datatype:int,name:chvName;datatype:varchar,name:chrSIN_no;datatype:char,name:dtsBirth_date;datatype:smalldatetime,name:chvAddress;datatype:varchar,name:chvCity;datatype:varchar,name:chrprvst_abbv;datatype:char,name:chvcntry_name;datatype:varchar,name:chvPostal_zip;datatype:varchar,name:chvPhoneName;datatype:varchar,name:chvPhone1_Arcd;datatype:varchar,name:chvPhone1_Num;datatype:varchar,name:chvPhone1_Ext;datatype:varchar" />
+</info>

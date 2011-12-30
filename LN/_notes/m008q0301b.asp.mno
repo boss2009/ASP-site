@@ -1,0 +1,3 @@
+<info>
+	<infoitem key="UD_rsGST" value="name:intCharge_Rate_id;datatype:int,name:chvCharge_Item_Desc;datatype:varchar,name:bitIsTax;datatype:bit,name:fltPercentage;datatype:float" />
+</info>

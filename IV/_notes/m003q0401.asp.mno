@@ -1,0 +1,3 @@
+<info>
+	<infoitem key="UD_rsLoanHistory" value="name:intLoan_Req_id;datatype:int,name:intEquip_set_id;datatype:int,name:dtsDate_Returned;datatype:smalldatetime,name:insReturned_by_id;datatype:smallint,name:chvReturned_by;datatype:varchar,name:dtsDate_Shipped;datatype:smalldatetime,name:chvLoan_name;datatype:varchar,name:insLoan_Type_id;datatype:smallint,name:chvLoan_Type;datatype:varchar,name:insLoan_Status_id;datatype:smallint,name:chvLoan_Status;datatype:varchar,name:intEq_user_id;datatype:int,name:insEq_user_type;datatype:smallint,name:dtsProcessed_date;datatype:smalldatetime,name:dtsDlvy_date;datatype:smalldatetime" />
+</info>

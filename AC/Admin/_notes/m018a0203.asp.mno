@@ -1,0 +1,3 @@
+<info>
+	<infoitem key="UD_rsType" value="name:insTypeid;datatype:smallint,name:chvTypeDesc;datatype:varchar,name:chvTypeAbbrev;datatype:varchar" />
+</info>

@@ -1,0 +1,3 @@
+<info>
+	<infoitem key="UD_rsPurchaseType" value="name:insPur_type_id;datatype:int,name:chvname;datatype:varchar,name:bitis_Active;datatype:bit" />
+</info>

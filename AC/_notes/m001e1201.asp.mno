@@ -1,0 +1,4 @@
+<info>
+	<infoitem key="UD_rsStaff" value="name:insStaff_id;datatype:smallint,name:chvFst_Name;datatype:varchar,name:chvLst_Name;datatype:varchar,name:chvname;datatype:varchar,name:intAddress_id;datatype:int" />
+	<infoitem key="UD_rsServiceRequestedType" value="name:insService_type_id;datatype:int,name:chvname;datatype:varchar,name:bitis_adult;datatype:bit,name:bitis_req_service;datatype:bit,name:bitis_active;datatype:bit" />
+</info>

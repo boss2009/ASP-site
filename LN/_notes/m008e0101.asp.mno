@@ -1,0 +1,11 @@
+<info>
+	<infoitem key="UD_rsRegion" value="name:insRegion_num;datatype:smallint,name:chvname;datatype:varchar,name:chvabbrev;datatype:varchar,name:intaddress_id;datatype:int" />
+	<infoitem key="UD_rsStdSts" value="name:insStdnt_status_id;datatype:smallint,name:chvName;datatype:varchar" />
+	<infoitem key="UD_rsCseMgr" value="name:insId;datatype:smallint,name:chvName;datatype:varchar" />
+	<infoitem key="UD_rsDisability" value="name:insDisability_id;datatype:smallint,name:chvname;datatype:varchar" />
+	<infoitem key="UD_rsClient" value="name:intAdult_Id;datatype:int,name:chvLst_Name;datatype:varchar,name:chvFst_Name;datatype:varchar,name:chvMdl_name;datatype:varchar,name:chvName;datatype:varchar,name:intAge;datatype:int,name:insRegion_num;datatype:smallint,name:insStdnt_status_id;datatype:smallint,name:insDsbty1_id;datatype:smallint,name:insDsbty2_id;datatype:smallint,name:insCase_mngr_id;datatype:smallint,name:chvPENno;datatype:char,name:bitIs_FirstNations;datatype:bit,name:chrSIN_no;datatype:char,name:chrPEN_num;datatype:char,name:insRegion_num;datatype:smallint,name:bitIsDefault_asp;datatype:bit,name:bitGender_is_male;datatype:bit,name:dtsBirth_date;datatype:smalldatetime,name:bitIs_Prx_SETBC;datatype:bit,name:bitIs_Prx_PRCVI;datatype:bit,name:intStdnt_addr_id;datatype:int,name:intAlt_Addr_id;datatype:int" />
+	<infoitem key="UD_rsDurationType" value="name:insDuratn_type_id;datatype:smallint,name:chvDuratn_desc;datatype:varchar,name:chrAbbrev;datatype:varchar" />
+	<infoitem key="UD_rsLoanStatus" value="name:intloan_status_id;datatype:int,name:chvname;datatype:varchar" />
+	<infoitem key="UD_rsLoanType" value="name:intloan_type_id;datatype:int,name:chvname;datatype:varchar" />
+	<infoitem key="UD_rsUserType" value="name:insEq_user_type;datatype:smallint,name:chvEq_user_type;datatype:varchar,name:bitIs_active;datatype:bit" />
+</info>

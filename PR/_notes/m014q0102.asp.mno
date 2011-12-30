@@ -1,0 +1,3 @@
+<info>
+	<infoitem key="UD_rsVendorContractPO" value="name:insPurchase_req_id;datatype:smallint,name:insEquip_Class_id;datatype:smallint,name:insVendor_id;datatype:smallint,name:chvVendorName;datatype:varchar,name:chvContract_PO;datatype:varchar" />
+</info>
